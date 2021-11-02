@@ -16,5 +16,9 @@ public class Program {
         System.out.println();
 
         FibonacciSequence.fibonacciNumbers(20);
+        System.out.println();
+        System.out.println();
+
+        BillionNowOrNot.countWhatIsBetter(false);
     }
 }
