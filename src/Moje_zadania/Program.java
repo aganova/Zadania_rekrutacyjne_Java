@@ -1,5 +1,7 @@
 package Moje_zadania;
 
+import static Moje_zadania.ZadanieOdPawlaJasko.getSumNumber;
+
 public class Program {
 
     public static void main(String[] args) {
@@ -20,5 +22,7 @@ public class Program {
         System.out.println();
 
         BillionNowOrNot.countWhatIsBetter(false);
+
+        getSumNumber(3);
     }
 }
