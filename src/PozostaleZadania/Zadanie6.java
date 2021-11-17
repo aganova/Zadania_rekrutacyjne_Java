@@ -7,16 +7,16 @@ public class Zadanie6 {
     // Wynik: [30, 40, 20]
 
     public static void main(String[] args) {
-        int[] tab = {20, 30, 40, 50, 60, 70, 10};
+        int[] tab = {20, 30, 40, 28, 50, 60, 70, 10};
         int[] newTab = new int[tab.length];
 
-        // 1.sposób
-        //for (int i = 0; i < tab.length; i++) {
-        //    if (i == 0 || i != tab.length - 1)
-        //        newTab[i] = tab[i + 1];
-        //    else
-        //        newTab[i] = tab[0];
-        //}
+        //1.sposób
+        for (int i = 0; i < tab.length; i++) {
+            if (i != tab.length - 1)
+                newTab[i] = tab[i + 1];
+            else
+                newTab[i] = tab[0];
+        }
 
         // 2.sposób
         for (int i = 0; i < tab.length; i++) {

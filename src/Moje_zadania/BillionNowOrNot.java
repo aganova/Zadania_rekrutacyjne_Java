@@ -7,7 +7,7 @@ public class BillionNowOrNot {
         double result;
 
         if (isBillionTakenNow) {
-                System.out.println("Bad choice! You have won only 1 billion $!!");
+                System.out.println("Bad choice! You have won only 1 million $!!");
                 return;
         } else
             for (int i = 0; i < (monthDays - 1); i++) {
